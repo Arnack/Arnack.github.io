@@ -1,24 +1,16 @@
 import React from "react";
-import { useState } from "react";
-import ReactMapGL from "react-map-gl";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const [viewport, setViewport] = useState({
-    latitude: 40.712776,
-    longitude: -74.005974,
-    zoom: 8,
-  });
-
   function sendEmail(e) {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_pgn3zvk",
+        "template_pw66pew",
         e.target,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "user_qGzMzx9K8bucfJeC1cxmX"
       )
       .then((res) => {
         console.log(res);

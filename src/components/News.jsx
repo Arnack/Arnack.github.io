@@ -7,7 +7,7 @@ const News = () => {
         <div className="tokyo_tm_title">
           <div className="title_flex">
             <div className="left">
-              <h3>Skills & Tacknologies</h3>
+              <h3>Skills & Technologies</h3>
             </div>
           </div>
         </div>
