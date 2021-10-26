@@ -3,9 +3,10 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Link } from "react-router-dom";
 import Home from "../../components/Home";
 import About from "../../components/About";
-import Portfolio from "../../components/Portfolio";
+import Portfolio from "../../components/PortfolioCreative";
 import News from "../../components/News";
 import Contact from "../../components/Contact";
+import Experience from "../../components/Experience";
 
 const HomeDark = () => {
   document.body.classList.add("dark");
@@ -31,7 +32,7 @@ const HomeDark = () => {
                       src="/assets/img/svg/home-run.svg"
                       alt="homerun"
                     />
-                    <span className="menu_content">Home</span>
+                    <span className="menu_content">Intro</span>
                   </Tab>
                   <Tab>
                     <img
@@ -55,7 +56,7 @@ const HomeDark = () => {
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
-                    <span className="menu_content">News</span>
+                    <span className="menu_content">Skills</span>
                   </Tab>
                   <Tab>
                     <img
@@ -80,6 +81,20 @@ const HomeDark = () => {
                     Grigorii Orlov
                   </a>
                 </p>
+
+                <a 
+                  href="/assets/cv/Grigorii_Orlov_senior_frontend_CV.pdf"
+                  target="_blank"
+                >
+                  <div className="download-cv">
+                    <img
+                      className="svg"
+                      src="/assets/img/svg/download.svg"
+                      alt="homerun"
+                    />
+                    <span className="menu_content">Download CV</span>
+                  </div>
+                </a>
               </div>
               {/* END COPYRIGHT */}
             </div>
@@ -112,7 +127,7 @@ const HomeDark = () => {
                 {/* END ABOUT MENU TAB CONTENT */}
 
                 <TabPanel>
-                  <Portfolio />
+                  <Experience />
                 </TabPanel>
                 {/* END PORTFOLIO MENU TAB CONTENT */}
 

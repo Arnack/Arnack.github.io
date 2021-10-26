@@ -540,6 +540,14 @@ h6 {
   height: auto;
   clear: both;
 }
+.tokyo_tm_about .company-intro span{
+  color: white;
+}
+.tokyo_tm_about .job-title {
+  width: 100%;
+  height: auto;
+  clear: both;
+}
 .tokyo_tm_about .description_inner {
   width: 100%;
   display: flex;
@@ -2131,4 +2139,14 @@ body.modal {
 .tokyo_tm_portfolio .portfolio_filter ul li .inner:hover .mobile_title {
   -webkit-transform: translateY(0);
   transform: translateY(0);
+}
+
+.download-cv {
+  cursor: pointer;
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: center;
+  img {
+    margin-right: 8px
+  }
 }

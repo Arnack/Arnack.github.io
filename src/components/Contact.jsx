@@ -36,23 +36,11 @@ const Contact = () => {
         <div className="tokyo_tm_title">
           <div className="title_flex">
             <div className="left">
-              <span>Contact</span>
               <h3>Get in Touch</h3>
             </div>
           </div>
         </div>
         {/* END TITLE */}
-
-        <div className="map_wrap">
-          <div className="map">
-            <ReactMapGL
-              mapStyle={"mapbox://style/mapbox/dark-v9"}
-              mapboxApiAccessToken="pk.eyJ1IjoiYmF5YXppZGgiLCJhIjoiY2tvemdwc3ByMDg1YzJubzQxcDR0cDR3dyJ9.s1zXEb5OPqgBDcmupj3GBA"
-              {...viewport}
-              onViewportChange={(nextViewport) => setViewport(nextViewport)}
-            />
-          </div>
-        </div>
         {/* MENU WRAP */}
 
         <div className="fields">
